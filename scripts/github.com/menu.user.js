@@ -7,7 +7,7 @@
 // @license     MIT
 // @icon       	http://www.google.com/s2/favicons?domain=www.github.com
 // @updateURL  	https://github.com/laomo/userscripts/raw/master/scripts/github.com/menu.user.js
-// @downloadURL https://github.com/laomo/userscripts/raw/master/scripts/github.com/menu.user.js		
+// @downloadURL https://github.com/laomo/userscripts/raw/master/scripts/github.com/menu.user.js
 // @homepage    https://github.com/laomo/userscripts
 // @require	    http://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js
 // @version		0.1
