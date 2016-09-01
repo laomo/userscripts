@@ -10,7 +10,7 @@
 // @downloadURL https://github.com/laomo/userscripts/raw/master/scripts/github.com/menu.user.js
 // @homepage    https://github.com/laomo/userscripts
 // @require	    https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js
-// @version		0.1
+// @version		0.2
 // ==/UserScript==
 
 var me = $("meta[name=user-login]").attr("content");
