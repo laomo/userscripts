@@ -5,12 +5,12 @@
 // @description Enhance github menu
 // @include     https://github.com/*
 // @license     MIT
-// @icon       	http://www.google.com/s2/favicons?domain=www.github.com
+// @icon       	https://www.google.com/s2/favicons?domain=www.github.com
 // @updateURL  	https://github.com/laomo/userscripts/raw/master/scripts/github.com/menu.user.js
 // @downloadURL https://github.com/laomo/userscripts/raw/master/scripts/github.com/menu.user.js
 // @homepage    https://github.com/laomo/userscripts
-// @require	    http://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js
-// @version		0.1
+// @require	    https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js
+// @version		0.2
 // ==/UserScript==
 
 var me = $("meta[name=user-login]").attr("content");
@@ -20,4 +20,4 @@ html ='<li class="header-nav-item"><a href="/' + me +'" class="js-selected-navig
 +'<li class="header-nav-item"><a href="/stars" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:pulls context:user">Stars</a></li>'
 +'<li class="header-nav-item"><a href="/trending" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:pulls context:user">Trending</a></li>'; 
 
-$("ul.left").filter(".header-nav").prepend(html);
+$(".float-left").filter(".header-nav").prepend(html);
