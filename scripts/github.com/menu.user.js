@@ -10,7 +10,7 @@
 // @downloadURL https://github.com/laomo/userscripts/raw/master/scripts/github.com/menu.user.js
 // @homepage    https://github.com/laomo/userscripts
 // @require	    https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js
-// @version		0.2
+// @version		0.3
 // ==/UserScript==
 
 var me = $("meta[name=user-login]").attr("content");
@@ -18,6 +18,7 @@ var me = $("meta[name=user-login]").attr("content");
 
 html ='<li class="header-nav-item"><a href="/' + me +'" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:pulls context:user">My</a></li>'
 +'<li class="header-nav-item"><a href="/stars" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:pulls context:user">Stars</a></li>'
-+'<li class="header-nav-item"><a href="/trending" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:pulls context:user">Trending</a></li>'; 
++'<li class="header-nav-item"><a href="/trending" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:pulls context:user">Trending</a></li>'
++'<li class="header-nav-item"><a href="/watching" class="js-selected-navigation-item header-nav-link" data-ga-click="Header, click, Nav menu - item:pulls context:user">Watching</a></li>';
 
 $(".float-left").filter(".header-nav").prepend(html);
